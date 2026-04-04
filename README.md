@@ -36,11 +36,7 @@
 
 ---
 
-
-
 ### 🪐 Technology Stack
-
-FonsecaAj
 
 **Backend**
 
@@ -90,6 +86,17 @@ FonsecaAj
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Ocelot](https://img.shields.io/badge/Ocelot_Gateway-1a1a2e?style=for-the-badge&logo=dotnet&logoColor=58a6ff)
 ![Scrum](https://img.shields.io/badge/Scrum-58a6ff?style=for-the-badge&logo=jira&logoColor=white)
+
+---
+
+
+<div align="center">
+
+### 🌌 Soft Skills
+
+<img src="./assets/softskills-radar.svg" width="560" alt="Soft Skills Radar" />
+
+</div>
 
 ---
 
