@@ -1,0 +1,134 @@
+<svg width="560" height="500" viewBox="0 0 560 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="560" height="500" fill="#060918" rx="16"/>
+
+  <!-- Stars -->
+  <circle cx="42" cy="30" r="1" fill="white" opacity="0.3"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="510" cy="55" r="1.2" fill="white" opacity="0.4"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="80" cy="440" r="0.8" fill="white" opacity="0.3"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="490" cy="420" r="1" fill="white" opacity="0.25"><animate attributeName="opacity" values="0.25;0.7;0.25" dur="3.6s" repeatCount="indefinite"/></circle>
+  <circle cx="530" cy="200" r="0.8" fill="white" opacity="0.3"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="25" cy="280" r="1.1" fill="white" opacity="0.2"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="150" cy="20" r="0.9" fill="white" opacity="0.35"><animate attributeName="opacity" values="0.35;0.85;0.35" dur="3.3s" repeatCount="indefinite"/></circle>
+  <circle cx="400" cy="480" r="1" fill="white" opacity="0.2"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="55" cy="150" r="0.7" fill="white" opacity="0.3"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="470" cy="140" r="1.2" fill="white" opacity="0.25"><animate attributeName="opacity" values="0.25;0.75;0.25" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="300" cy="14" r="0.8" fill="white" opacity="0.3"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="200" cy="475" r="1" fill="white" opacity="0.2"><animate attributeName="opacity" values="0.2;0.65;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
+
+  <!-- Header text -->
+  <text x="280" y="30" text-anchor="middle" font-family="monospace" font-size="9" fill="rgba(120,170,255,0.5)" letter-spacing="4">&#x25C8; SOFT SKILLS &#x25C8;</text>
+  <text x="280" y="52" text-anchor="middle" font-family="monospace" font-size="13" font-weight="bold" fill="#c8e0ff" letter-spacing="2">Constelaci&#xF3;n de Competencias</text>
+
+  <!-- Grid rings (heptagon N=7) -->
+  <!-- R=150 -->
+  <polygon points="280,98 419.9,161.6 419.9,338.4 280,402 140.1,338.4 140.1,161.6" fill="none" stroke="#1a2a4a" stroke-width="0.5" opacity="0.9"/>
+  <!-- R=112 -->
+  <polygon points="280,138 384.9,190.2 384.9,309.8 280,362 175.1,309.8 175.1,190.2" fill="none" stroke="#1a2a4a" stroke-width="0.5" opacity="0.7"/>
+  <!-- R=75 -->
+  <polygon points="280,175 349.9,218.8 349.9,281.2 280,325 210.1,281.2 210.1,218.8" fill="none" stroke="#1a2a4a" stroke-width="0.5" opacity="0.55"/>
+  <!-- R=37 -->
+  <polygon points="280,213 314.9,231.4 314.9,268.6 280,287 245.1,268.6 245.1,231.4" fill="none" stroke="#1a2a4a" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Axis lines (N=7, angles: -90, -38.6, 12.9, 64.3, 115.7, 167.1, 218.6 deg — wait, 360/7=51.43deg) -->
+  <!-- skill 0: -90deg  → (280, 100) -->
+  <line x1="280" y1="250" x2="280" y2="100" stroke="#1e3050" stroke-width="0.5" opacity="0.6"/>
+  <!-- skill 1: -90+51.43=-38.57deg → cos=-38.57=0.7818, sin=-38.57=-0.6235 → (280+117,250-93.5)=(397,156.5) -->
+  <line x1="280" y1="250" x2="397" y2="157" stroke="#1e3050" stroke-width="0.5" opacity="0.6"/>
+  <!-- skill 2: 12.86deg → cos=0.9749, sin=0.2225 → (280+146,250+33)=(426,283) -->
+  <line x1="280" y1="250" x2="426" y2="283" stroke="#1e3050" stroke-width="0.5" opacity="0.6"/>
+  <!-- skill 3: 64.29deg → cos=0.4339, sin=0.9010 → (280+65,250+135)=(345,385) -->
+  <line x1="280" y1="250" x2="345" y2="385" stroke="#1e3050" stroke-width="0.5" opacity="0.6"/>
+  <!-- skill 4: 115.71deg → cos=-0.4339, sin=0.9010 → (280-65,250+135)=(215,385) -->
+  <line x1="280" y1="250" x2="215" y2="385" stroke="#1e3050" stroke-width="0.5" opacity="0.6"/>
+  <!-- skill 5: 167.14deg → cos=-0.9749, sin=0.2225 → (280-146,250+33)=(134,283) -->
+  <line x1="280" y1="250" x2="134" y2="283" stroke="#1e3050" stroke-width="0.5" opacity="0.6"/>
+  <!-- skill 6: 218.57deg → cos=-0.7818, sin=-0.6235 → (280-117,250-93.5)=(163,157) -->
+  <line x1="280" y1="250" x2="163" y2="157" stroke="#1e3050" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- Outer decorative ring -->
+  <circle cx="280" cy="250" r="157" fill="none" stroke="#1e3a6a" stroke-width="0.5" stroke-dasharray="3 8" opacity="0.4">
+    <animateTransform attributeName="transform" type="rotate" from="0 280 250" to="360 280 250" dur="35s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Sweep line -->
+  <line x1="280" y1="250" x2="280" y2="100" stroke="#a78bfa" stroke-width="1" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 280 250" to="360 280 250" dur="6s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Data polygon (values: Liderazgo=88%, BuenaActitud=92%, Comunicacion=85%, Resolucion=90%, Adaptabilidad=87%, Responsabilidad=93%, Competitividad=83%) -->
+  <!-- skill0 Liderazgo 88%: 280, 250-150*0.88=250-132=118 → (280,118) -->
+  <!-- skill1 BuenaActitud 92%: 280+117*0.92,250-93.5*0.92 → (387.6,164) -->
+  <!-- skill2 Comunicacion 85%: 280+146*0.85,250+33*0.85 → (404.1,278) -->
+  <!-- skill3 Resolucion 90%: 280+65*0.90,250+135*0.90 → (338.5,371.5) -->
+  <!-- skill4 Adaptabilidad 87%: 280-65*0.87,250+135*0.87 → (223.4,367.5) -->
+  <!-- skill5 Responsabilidad 93%: 280-146*0.93,250+33*0.93 → (144.2,280.7) -->
+  <!-- skill6 Competitividad 83%: 280-117*0.83,250-93.5*0.83 → (182.9,172.4) -->
+  <polygon
+    points="280,118 387.6,164 404.1,278 338.5,371.5 223.4,367.5 144.2,280.7 182.9,172.4"
+    fill="rgba(167,139,250,0.18)" stroke="#a78bfa" stroke-width="1.5" opacity="0">
+    <animate attributeName="opacity" values="0;0.92;0.92" dur="1.8s" fill="freeze" calcMode="spline" keyTimes="0;0.7;1" keySplines="0.4 0 0.2 1;0 0 0 0"/>
+    <animate attributeName="points"
+      values="280,250 280,250 280,250 280,250 280,250 280,250 280,250;280,118 387.6,164 404.1,278 338.5,371.5 223.4,367.5 144.2,280.7 182.9,172.4"
+      dur="1.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </polygon>
+
+  <!-- Skill dots with pulse -->
+  <!-- 0: Liderazgo (280,118) pink -->
+  <circle cx="280" cy="118" r="5" fill="#f472b6" opacity="0"><animate attributeName="opacity" values="0;0.95" dur="0.3s" begin="1.8s" fill="freeze"/></circle>
+  <circle cx="280" cy="118" r="5" fill="none" stroke="#f472b6" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="r" values="5;14;5" dur="3s" begin="1.8s" repeatCount="indefinite"/></circle>
+
+  <!-- 1: Buena actitud (387.6,164) green -->
+  <circle cx="388" cy="164" r="5" fill="#34d399" opacity="0"><animate attributeName="opacity" values="0;0.95" dur="0.3s" begin="2s" fill="freeze"/></circle>
+  <circle cx="388" cy="164" r="5" fill="none" stroke="#34d399" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="2.1s" repeatCount="indefinite"/><animate attributeName="r" values="5;14;5" dur="3s" begin="2.1s" repeatCount="indefinite"/></circle>
+
+  <!-- 2: Comunicación (404,278) blue -->
+  <circle cx="404" cy="278" r="5" fill="#60a8ff" opacity="0"><animate attributeName="opacity" values="0;0.95" dur="0.3s" begin="2.1s" fill="freeze"/></circle>
+  <circle cx="404" cy="278" r="5" fill="none" stroke="#60a8ff" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="r" values="5;14;5" dur="3s" begin="2.4s" repeatCount="indefinite"/></circle>
+
+  <!-- 3: Resolución (338,371) amber -->
+  <circle cx="338" cy="371" r="5" fill="#fbbf24" opacity="0"><animate attributeName="opacity" values="0;0.95" dur="0.3s" begin="2.2s" fill="freeze"/></circle>
+  <circle cx="338" cy="371" r="5" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="2.7s" repeatCount="indefinite"/><animate attributeName="r" values="5;14;5" dur="3s" begin="2.7s" repeatCount="indefinite"/></circle>
+
+  <!-- 4: Adaptabilidad (223,367) purple -->
+  <circle cx="223" cy="367" r="5" fill="#a78bfa" opacity="0"><animate attributeName="opacity" values="0;0.95" dur="0.3s" begin="2.3s" fill="freeze"/></circle>
+  <circle cx="223" cy="367" r="5" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="3s" repeatCount="indefinite"/><animate attributeName="r" values="5;14;5" dur="3s" begin="3s" repeatCount="indefinite"/></circle>
+
+  <!-- 5: Responsabilidad (144,281) red -->
+  <circle cx="144" cy="281" r="5" fill="#f87171" opacity="0"><animate attributeName="opacity" values="0;0.95" dur="0.3s" begin="2.4s" fill="freeze"/></circle>
+  <circle cx="144" cy="281" r="5" fill="none" stroke="#f87171" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="3.3s" repeatCount="indefinite"/><animate attributeName="r" values="5;14;5" dur="3s" begin="3.3s" repeatCount="indefinite"/></circle>
+
+  <!-- 6: Competitividad (183,172) cyan -->
+  <circle cx="183" cy="172" r="5" fill="#38bdf8" opacity="0"><animate attributeName="opacity" values="0;0.95" dur="0.3s" begin="2.5s" fill="freeze"/></circle>
+  <circle cx="183" cy="172" r="5" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3s" begin="3.6s" repeatCount="indefinite"/><animate attributeName="r" values="5;14;5" dur="3s" begin="3.6s" repeatCount="indefinite"/></circle>
+
+  <!-- Center dot -->
+  <circle cx="280" cy="250" r="3" fill="#a78bfa" opacity="0.9"/>
+  <circle cx="280" cy="250" r="7" fill="none" stroke="#a78bfa" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Skill labels -->
+  <!-- 0 Liderazgo top -->
+  <text x="280" y="88" text-anchor="middle" font-family="monospace" font-size="11" fill="#f472b6" opacity="0.95">Liderazgo</text>
+  <!-- 1 Buena actitud top-right -->
+  <text x="418" y="146" text-anchor="start" font-family="monospace" font-size="11" fill="#34d399" opacity="0.95">Buena actitud</text>
+  <!-- 2 Comunicación right -->
+  <text x="416" y="275" text-anchor="start" font-family="monospace" font-size="11" fill="#60a8ff" opacity="0.95">Comunicaci&#xF3;n</text>
+  <!-- 3 Resolución bottom-right -->
+  <text x="345" y="398" text-anchor="middle" font-family="monospace" font-size="11" fill="#fbbf24" opacity="0.95">Resoluci&#xF3;n de</text>
+  <text x="345" y="412" text-anchor="middle" font-family="monospace" font-size="11" fill="#fbbf24" opacity="0.95">problemas</text>
+  <!-- 4 Adaptabilidad bottom-left -->
+  <text x="215" y="398" text-anchor="middle" font-family="monospace" font-size="11" fill="#a78bfa" opacity="0.95">Adaptabilidad</text>
+  <!-- 5 Responsabilidad left -->
+  <text x="132" y="275" text-anchor="end" font-family="monospace" font-size="11" fill="#f87171" opacity="0.95">Responsabilidad</text>
+  <!-- 6 Competitividad top-left -->
+  <text x="170" y="146" text-anchor="end" font-family="monospace" font-size="11" fill="#38bdf8" opacity="0.95">Competitividad</text>
+
+  <!-- Border -->
+  <rect width="560" height="500" fill="none" stroke="rgba(80,130,255,0.2)" stroke-width="1" rx="16"/>
+</svg>
