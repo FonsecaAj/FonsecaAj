@@ -27,16 +27,33 @@
 </p>
 
 <br/>
+<br>
 
 ---
 
-### 🛸 About me
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TrinhChung/TrinhChung/output/github-snake.svg" alt="Space Snake" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/denvercoder/github-贡献-calendar-action">
+    <img src="https://github-contributor-stats.vercel.app/api?username=FonsecaAj&theme=dark&label=Contributions&message=in&title=Contributions&color=58a6ff&border=true&border-color=1a1a4e&bg_color=0d1117" alt="贡献统计" />
+  </a>
+</p>
+
+---
+
+## ✨ About me
 
 > Advanced Information Technology student with hands-on experience in software development, specializing in microservices architecture using .NET, IT infrastructure management, and advanced technical support. Communication and proactive leadership skills, results-oriented approach, enabling effective work in diverse teams, bringing dynamism and innovative solutions to projects.
 
 ---
 
-### 🪐 Technology Stack
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=0d1117&height=60&section=header&text=🛸%20Technology%20Stack%20🚀&fontSize=26&fontColor=58a6ff" />
+</p>
+
+<br>
 
 **Backend**
 
@@ -89,22 +106,23 @@
 
 ---
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=0d1117&height=60&section=header&text=🌌%20Soft%20Skills%20⭐&fontSize=26&fontColor=58a6ff" />
+</p>
 
 <div align="center">
-
-### 🌌 Soft Skills
-
-<img src="./assets/softskills-radar.svg" width="560" alt="Soft Skills Radar" />
-
+  <img src="./assets/softskills-radar.svg" width="560" alt="Soft Skills Radar" />
 </div>
 
 ---
 
-<div align="center">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d2b,50:1a1a4e,100:0d0d2b&height=80&section=header&animation=fadeIn" width="100%"/>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d2b,50:1a1a4e,100:0d0d2b&height=80&section=header&animation=fadeIn" width="100%"/>
-
-### 📡 Contact
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=0d1117&height=60&section=header&text=📡%20Contact%20🪐&fontSize=26&fontColor=58a6ff" />
+</p>
 
 <div align="center">
 
